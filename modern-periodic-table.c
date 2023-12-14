@@ -6,8 +6,8 @@ struct Element
     char name[50];
     char symbol[3];
     int atomicNumber;
-    char electronicConfiguration[20];
-    char discoveredBy[50];
+    char electronicConfiguration[100];
+    char discoveredBy[100];
     int charge;
 };
 
